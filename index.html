@@ -1,0 +1,872 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Piezo — Pure Water. Pure Life.</title>
+  <meta name="description" content="Piezo Premium Packaged Drinking Water — Serving Rajasthan with pure, quality-assured drinking water. 1L bottles, table water, and customized event bottles. Distributors welcome.">
+  <meta name="keywords" content="Piezo water, packaged drinking water, Rajasthan water, Sawai Madhopur, Jaipur, Tonk, premium water, distributor, event bottles">
+  <meta name="author" content="Piezo Food & Beverages">
+  <meta property="og:title" content="Piezo — Pure Water. Pure Life.">
+  <meta property="og:description" content="Premium packaged drinking water serving Rajasthan. Pure. Safe. Quality Assured.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Piezo — Pure Water. Pure Life.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="/">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Josefin+Sans:wght@200;300;400;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Canvas for water ripple background -->
+  <canvas id="waterCanvas"></canvas>
+
+  <!-- Floating particles -->
+  <div class="particles" id="particles"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+     <a href="#hero" class="nav-logo">
+    <img src="Piezo.png" alt="Piezo Logo">
+</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#stats">Impact</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#distributor">Distributor</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-glow"></div>
+    <div class="hero-water-ring ring-1"></div>
+    <div class="hero-water-ring ring-2"></div>
+    <div class="hero-water-ring ring-3"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        Premium Packaged Drinking Water
+      </div>
+
+      <div class="hero-logo-wrap">
+       
+        <img src="Piezo.png" alt="Piezo Logo" class="hero-logo-img">
+      </div>
+
+      <p class="hero-tagline">Pure Water. <em>Pure Life.</em></p>
+      <p class="hero-sub">Crafted for purity · Delivered with care · Trusted across India</p>
+
+      <div class="hero-cta">
+        <a href="#distributor" class="btn btn-primary">
+          <span class="btn-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          Become Distributor
+        </a>
+        <a href="#contact" class="btn btn-secondary">
+          <span class="btn-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
+          </span>
+          Contact Us
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>Discover</span>
+      <div class="scroll-line"><div class="scroll-dot"></div></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-grid">
+    
+         <div class="about-visual">
+    <video autoplay muted loop playsinline class="about-video">
+        <source src="about-video.mp4" type="video/mp4">
+    </video>
+        </div>
+
+        <div class="about-content">
+          <div class="section-eyebrow">About Piezo</div>
+          <h2 class="section-title">India's <br><em>Finest Water</em></h2>
+          <div class="about-divider"></div>
+          <p class="about-text">
+            PIEZO is a premium packaged drinking water brand born in the heart of Rajasthan. We believe every drop of water you consume should be pure, safe, and refreshing — whether you're at home, at work, or celebrating life's most important moments.
+          </p>
+          <p class="about-text">
+            From our state-of-the-art purification facility, we serve homes, hotels, hospitals, and events across Sawai Madhopur, Jaipur, and Tonk — with an unwavering commitment to quality.
+          </p>
+
+          <div class="about-chips">
+            <div class="chip">
+              <svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8" stroke="#A8D8EA" stroke-width="1.5"/><path d="M7 10l2 2 4-4" stroke="#A8D8EA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+         
+            </div>
+            <div class="chip">
+              <svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8" stroke="#A8D8EA" stroke-width="1.5"/><path d="M7 10l2 2 4-4" stroke="#A8D8EA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              FSSAI Approved
+            </div>
+            <div class="chip">
+              <svg viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8" stroke="#A8D8EA" stroke-width="1.5"/><path d="M7 10l2 2 4-4" stroke="#A8D8EA" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+         
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats-section" id="stats">
+    <div class="stats-bg-line"></div>
+    <div class="container">
+      <div class="section-eyebrow centered">By The Numbers</div>
+      <h2 class="section-title centered">Piezo's <em>Impact</em></h2>
+      <div class="stats-grid">
+        <div class="stat-card" data-target="3" data-suffix="+" data-label="Cities Served">
+          <div class="stat-number"><span class="stat-count">0</span><span class="stat-suffix">+</span></div>
+          <div class="stat-label">Cities Served</div>
+          <div class="stat-bar"><div class="stat-fill"></div></div>
+        </div>
+        <div class="stat-card" data-target="500" data-suffix="+" data-label="Daily Deliveries">
+          <div class="stat-number"><span class="stat-count">0</span><span class="stat-suffix">+</span></div>
+          <div class="stat-label">Daily Deliveries</div>
+          <div class="stat-bar"><div class="stat-fill"></div></div>
+        </div>
+        <div class="stat-card" data-target="100" data-suffix="%" data-label="Purity Guaranteed">
+          <div class="stat-number"><span class="stat-count">0</span><span class="stat-suffix">%</span></div>
+          <div class="stat-label">Purity Guaranteed</div>
+          <div class="stat-bar"><div class="stat-fill"></div></div>
+        </div>
+        <div class="stat-card" data-target="1000" data-suffix="+" data-label="Happy Families">
+          <div class="stat-number"><span class="stat-count">0</span><span class="stat-suffix">+</span></div>
+          <div class="stat-label">Happy Families</div>
+          <div class="stat-bar"><div class="stat-fill"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products-section" id="products">
+    <div class="container">
+      <div class="section-eyebrow centered">Our Range</div>
+      <h2 class="section-title centered">Premium <em>Products</em></h2>
+      <p class="section-sub centered">Every bottle crafted with precision. Every sip — perfection.</p>
+
+      <div class="products-grid">
+        <!-- Product 1 -->
+        <div class="product-card" data-product="1">
+          <div class="product-card-glow"></div>
+          <div class="product-number">01</div>
+          <div class="product-icon">
+          <a herf="product1.jpeg" class="product-popup">
+             <img src="product1.jpeg" alt="piezo 1L Bottle" class="product-image">
+           
+          </div>
+                <h3 class="product-name">Piezo packed drinking water (1ltr)</h3>
+          <p class="product-desc">Your everyday hydration companion — pure, safe, and ready wherever life takes you. Perfect for homes, offices, and on-the-go.</p>
+          <div class="product-tags">
+            <span>Home Use</span>
+            <span>Office</span>
+            <span>Retail</span>
+          </div>
+          <a href="#distributor" class="product-cta">Enquire Now</a>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card product-featured" data-product="2">
+          <div class="product-card-glow"></div>
+          <div class="product-badge-featured">Premium</div>
+          <div class="product-number">02</div>
+          <div class="product-icon">
+          <a herf="product2.jpeg" class="product-popup">
+            <img src="product2.jpeg" alt="Premium Table Water" class="product-image">
+          <a herf="product3.jpeg" class="product-popup">
+            <img src="product3.jpeg" alt="Premium Table Water" class="product-image">
+          </a>
+           </div>
+          <h3 class="product-name">Premium Table Water</h3>
+          <p class="product-desc">Elevate every dining experience. Designed for hotels, restaurants, and discerning hosts who demand nothing but the finest.</p>
+          <div class="product-tags">
+            <span>Hotels</span>
+            <span>Restaurants</span>
+            <span>Fine Dining</span>
+          </div>
+          <a href="#distributor" class="product-cta">Enquire Now</a>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card" data-product="3">
+          <div class="product-card-glow"></div>
+          <div class="product-number">03</div>
+          <div class="product-icon">
+<a herf="product4.jpeg" class="product-popup">
+            <img src="product4.jpeg" alt="Premium Table Water" class="product-image">
+<a herf="product5.jpeg" class="product-popup">
+            <img src="product5.jpeg" alt="Premium Table Water" class="product-image">
+
+            
+             </a>
+          </div>
+          <h3 class="product-name">Customized water Bottles (500ml & 200ml)</h3>
+          <p class="product-desc">Make your celebrations unforgettable. Custom-labeled water bottles for weddings, corporate events, and special occasions.</p>
+          <div class="product-tags">
+            <span>Weddings</span>
+            <span>Corporate</span>
+            <span>Events</span>
+          </div>
+          <a href="#distributor" class="product-cta">Enquire Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Piezo -->
+  <section class="why-section" id="why-us">
+    <div class="container">
+      <div class="section-eyebrow centered">Our Promise</div>
+      <h2 class="section-title centered">Why Choose <em>Piezo</em></h2>
+
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="22" stroke="url(#wGrad1)" stroke-width="1.5"/>
+              <path d="M24 8C24 8 10 22 10 31C10 38.7 16.3 45 24 45C31.7 45 38 38.7 38 31C38 22 24 8 24 8Z" fill="url(#wFill1)" opacity="0.6"/>
+              <path d="M18 32C18 32 15 27 19 23" stroke="rgba(168,216,234,0.7)" stroke-width="1.5" stroke-linecap="round"/>
+              <defs>
+                <linearGradient id="wGrad1" x1="2" y1="2" x2="46" y2="46" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#A8D8EA"/><stop offset="1" stop-color="#1a4a7a"/>
+                </linearGradient>
+                <linearGradient id="wFill1" x1="10" y1="8" x2="38" y2="45" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#A8D8EA"/><stop offset="1" stop-color="#0d3258"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="why-title">Pure & Safe Water</h3>
+          <p class="why-desc">Multi-stage purification process ensures every bottle meets the highest safety standards before it reaches you.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="22" stroke="url(#wGrad2)" stroke-width="1.5"/>
+              <path d="M24 12L28 20H36L30 26L32 34L24 29L16 34L18 26L12 20H20L24 12Z" fill="url(#wFill2)" opacity="0.7"/>
+              <defs>
+                <linearGradient id="wGrad2" x1="2" y1="2" x2="46" y2="46" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#C9A84C"/><stop offset="1" stop-color="#5a4010"/>
+                </linearGradient>
+                <linearGradient id="wFill2" x1="12" y1="12" x2="36" y2="34" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#C9A84C"/><stop offset="1" stop-color="#8B6914"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="why-title">Quality Assured</h3>
+          <p class="why-desc">FSSAI approved. Our quality speaks for itself in every bottle we deliver.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="22" stroke="url(#wGrad3)" stroke-width="1.5"/>
+              <rect x="14" y="18" width="20" height="16" rx="3" stroke="rgba(168,216,234,0.8)" stroke-width="1.5" fill="none"/>
+              <path d="M18 18V15a6 6 0 1112 0v3" stroke="rgba(168,216,234,0.8)" stroke-width="1.5" stroke-linecap="round"/>
+              <circle cx="24" cy="26" r="2" fill="rgba(168,216,234,0.8)"/>
+              <defs>
+                <linearGradient id="wGrad3" x1="2" y1="2" x2="46" y2="46" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#A8D8EA"/><stop offset="1" stop-color="#1a4a7a"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="why-title">Hospitality Solutions</h3>
+          <p class="why-desc">Tailored water solutions for hotels, restaurants, and healthcare — consistent supply, premium presentation.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="22" stroke="url(#wGrad4)" stroke-width="1.5"/>
+              <path d="M16 28L20 20L24 26L28 18L32 28" stroke="rgba(201,168,76,0.9)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              <path d="M12 32h24" stroke="rgba(201,168,76,0.5)" stroke-width="1" stroke-linecap="round"/>
+              <defs>
+                <linearGradient id="wGrad4" x1="2" y1="2" x2="46" y2="46" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#C9A84C"/><stop offset="1" stop-color="#1a4a7a"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="why-title">Customized Events</h3>
+          <p class="why-desc">Bespoke branded bottles that make your weddings, corporate gatherings, and events truly memorable.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="22" stroke="url(#wGrad5)" stroke-width="1.5"/>
+              <path d="M12 24l8 8 16-16" stroke="rgba(168,216,234,0.9)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <defs>
+                <linearGradient id="wGrad5" x1="2" y1="2" x2="46" y2="46" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#A8D8EA"/><stop offset="1" stop-color="#1a4a7a"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="why-title">Fast Delivery</h3>
+          <p class="why-desc">Reliable, on-time delivery across our service areas. We understand that water cannot wait.</p>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon">
+            <svg viewBox="0 0 48 48" fill="none">
+              <circle cx="24" cy="24" r="22" stroke="url(#wGrad6)" stroke-width="1.5"/>
+              <path d="M32 28c0 .3 0 .6-.1.9l1.5 1.5-2.1 2.1-1.5-1.5A5 5 0 1132 28z" fill="none" stroke="rgba(168,216,234,0.8)" stroke-width="1.5"/>
+              <path d="M20 20v-4a4 4 0 018 0v4" stroke="rgba(168,216,234,0.8)" stroke-width="1.5" stroke-linecap="round"/>
+              <rect x="14" y="20" width="16" height="12" rx="2" stroke="rgba(168,216,234,0.8)" stroke-width="1.5" fill="none"/>
+              <defs>
+                <linearGradient id="wGrad6" x1="2" y1="2" x2="46" y2="46" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#A8D8EA"/><stop offset="1" stop-color="#1a4a7a"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <h3 class="why-title">24/7 Support</h3>
+          <p class="why-desc">Our dedicated team is always available to assist you — from order placement to post-delivery care.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Areas -->
+  <section class="areas-section">
+    <div class="container">
+      <div class="areas-inner">
+        <div class="areas-text">
+          <div class="section-eyebrow">Our Reach</div>
+          <h2 class="section-title">Serving <em>Rajasthan</em></h2>
+          <p class="areas-desc">From the historic lanes of Sawai Madhopur to the bustling markets of Jaipur and the growing city of Tonk — PIEZO delivers purity across Rajasthan.</p>
+          <div class="areas-list">
+            <div class="area-item">
+              <div class="area-dot"></div>
+              <span>Sawai Madhopur</span>
+            </div>
+            <div class="area-item">
+              <div class="area-dot"></div>
+              <span>Jaipur</span>
+            </div>
+            <div class="area-item">
+              <div class="area-dot"></div>
+              <span>Tonk</span>
+            </div>
+          </div>
+          <p class="areas-expanding">Expanding soon to more cities across Rajasthan</p>
+        </div>
+
+        <div class="areas-map">
+          <div class="map-glow"></div>
+          <!-- Stylized Rajasthan map -->
+          <svg class="raj-map" viewBox="0 0 300 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 60 L80 40 L130 35 L170 30 L210 45 L250 40 L270 70 L265 110 L280 150 L260 190 L240 230 L210 260 L180 280 L150 290 L120 275 L90 255 L65 230 L40 200 L30 165 L35 120 L50 90 L50 60Z"
+                  fill="url(#mapGrad)" stroke="rgba(168,216,234,0.3)" stroke-width="1.5"/>
+            <!-- Sawai Madhopur -->
+            <circle cx="185" cy="200" r="8" fill="rgba(168,216,234,0.3)" stroke="#A8D8EA" stroke-width="1.5"/>
+            <circle cx="185" cy="200" r="3" fill="#A8D8EA"/>
+            <circle cx="185" cy="200" r="14" fill="none" stroke="rgba(168,216,234,0.2)" stroke-width="1">
+              <animate attributeName="r" values="8;20;8" dur="3s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.4;0;0.4" dur="3s" repeatCount="indefinite"/>
+            </circle>
+            <text x="197" y="204" fill="rgba(168,216,234,0.9)" font-family="Josefin Sans" font-size="8" font-weight="300">Sawai Madhopur</text>
+            <!-- Jaipur -->
+            <circle cx="130" cy="145" r="8" fill="rgba(201,168,76,0.3)" stroke="#C9A84C" stroke-width="1.5"/>
+            <circle cx="130" cy="145" r="3" fill="#C9A84C"/>
+            <circle cx="130" cy="145" r="14" fill="none" stroke="rgba(201,168,76,0.2)" stroke-width="1">
+              <animate attributeName="r" values="8;20;8" dur="3.5s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.4;0;0.4" dur="3.5s" repeatCount="indefinite"/>
+            </circle>
+            <text x="100" y="132" fill="rgba(201,168,76,0.9)" font-family="Josefin Sans" font-size="8" font-weight="300">Jaipur</text>
+            <!-- Tonk -->
+            <circle cx="158" cy="178" r="6" fill="rgba(168,216,234,0.3)" stroke="#A8D8EA" stroke-width="1.5"/>
+            <circle cx="158" cy="178" r="2.5" fill="#A8D8EA"/>
+            <circle cx="158" cy="178" r="12" fill="none" stroke="rgba(168,216,234,0.2)" stroke-width="1">
+              <animate attributeName="r" values="6;16;6" dur="4s" repeatCount="indefinite"/>
+              <animate attributeName="opacity" values="0.4;0;0.4" dur="4s" repeatCount="indefinite"/>
+            </circle>
+            <text x="166" y="182" fill="rgba(168,216,234,0.8)" font-family="Josefin Sans" font-size="8" font-weight="300">Tonk</text>
+            <!-- Connection lines -->
+            <path d="M130 145 L158 178" stroke="rgba(168,216,234,0.2)" stroke-width="1" stroke-dasharray="3 3"/>
+            <path d="M158 178 L185 200" stroke="rgba(168,216,234,0.2)" stroke-width="1" stroke-dasharray="3 3"/>
+            <defs>
+              <linearGradient id="mapGrad" x1="30" y1="30" x2="280" y2="290" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="rgba(13,50,90,0.4)"/>
+                <stop offset="100%" stop-color="rgba(7,20,45,0.6)"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<div class="truck-line">
+    <img src="transport.png" class="moving-truck" alt="Piezo Truck">
+</div>
+
+  <!-- Testimonials -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-eyebrow centered">Voices of Trust</div>
+      <h2 class="section-title centered">What People <em>Say</em></h2>
+
+      <div class="testimonials-track-wrap">
+        <div class="testimonials-track" id="testimonialsTrack">
+          <div class="testimonial-card">
+            <div class="testimonial-quote">"</div>
+            <p class="testimonial-text">Piezo has been our hotel's trusted water partner for over a year. The quality is exceptional, delivery is always on time, and the packaging looks premium — exactly what our guests expect.</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">RK</div>
+              <div>
+                <div class="testimonial-name">Rajendra Kumar</div>
+                <div class="testimonial-role">Hotel Manager, Sawai Madhopur</div>
+              </div>
+              <div class="testimonial-stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-quote">"</div>
+            <p class="testimonial-text">We ordered customized Piezo bottles for our daughter's wedding — every guest loved them! The branding was perfect, delivery was on time, and the water quality was outstanding.</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">SM</div>
+              <div>
+                <div class="testimonial-name">Sunita Mehta</div>
+                <div class="testimonial-role">Event Organizer, Jaipur</div>
+              </div>
+              <div class="testimonial-stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-quote">"</div>
+            <p class="testimonial-text">As a distributor, Piezo has been a game-changer for my business. Strong demand, fair pricing, and the team is always supportive. Highly recommend joining as a distributor!</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">AV</div>
+              <div>
+                <div class="testimonial-name">Amit Verma</div>
+                <div class="testimonial-role">Distributor, Tonk</div>
+              </div>
+              <div class="testimonial-stars">★★★★★</div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial-quote">"</div>
+            <p class="testimonial-text">Pure taste, safe water, and consistent supply — Piezo checks all boxes for our hospital. Our patients and staff trust it, and so do we. The best packaged water in Rajasthan.</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">PJ</div>
+              <div>
+                <div class="testimonial-name">Dr. Priya Joshi</div>
+                <div class="testimonial-role">Hospital Administrator, Jaipur</div>
+              </div>
+              <div class="testimonial-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonials-nav">
+        <button class="t-btn" id="tPrev" aria-label="Previous">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M15 18l-6-6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </button>
+        <div class="t-dots" id="tDots">
+          <div class="t-dot active"></div>
+          <div class="t-dot"></div>
+          <div class="t-dot"></div>
+          <div class="t-dot"></div>
+        </div>
+        <button class="t-btn" id="tNext" aria-label="Next">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M9 18l6-6-6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Distributor Section -->
+  <section class="distributor-section" id="distributor">
+    <div class="container">
+      <div class="dist-grid">
+        <div class="dist-info">
+          <div class="section-eyebrow">Grow With Us</div>
+          <h2 class="section-title">Become a <em>Piezo Distributor</em></h2>
+          <p class="dist-desc">Join Rajasthan's fastest-growing premium water brand. Build a profitable business with strong community demand, reliable margins, and full support from our team.</p>
+
+          <div class="dist-benefits">
+            <div class="dist-benefit">
+              <div class="dist-benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </div>
+              <div>
+                <strong>Attractive Margins</strong>
+                <span>Competitive pricing and high-demand product</span>
+              </div>
+            </div>
+            <div class="dist-benefit">
+              <div class="dist-benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/><circle cx="9" cy="7" r="4" stroke="#C9A84C" stroke-width="1.5"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </div>
+              <div>
+                <strong>Full Marketing Support</strong>
+                <span>Branding materials and sales assistance</span>
+              </div>
+            </div>
+            <div class="dist-benefit">
+              <div class="dist-benefit-icon">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="#C9A84C" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </div>
+              <div>
+                <strong>Priority Delivery</strong>
+                <span>Guaranteed stock and timely replenishment</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dist-form-wrap">
+          <div class="dist-form-glass">
+            <h3 class="form-title">Apply Now</h3>
+            <form class="dist-form" id="distForm" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="fullName">Full Name</label>
+                  <input type="text" id="fullName" name="fullName" placeholder="Your full name" autocomplete="name" required>
+                  <span class="form-error" id="err-fullName"></span>
+                </div>
+                <div class="form-group">
+                  <label for="mobile">Mobile Number</label>
+                  <input type="tel" id="mobile" name="mobile" placeholder="10-digit mobile" autocomplete="tel" required pattern="[6-9][0-9]{9}">
+                  <span class="form-error" id="err-mobile"></span>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="city">City</label>
+                  <input type="text" id="city" name="city" placeholder="Your city" required>
+                  <span class="form-error" id="err-city"></span>
+                </div>
+                <div class="form-group">
+                  <label for="businessName">Business Name</label>
+                  <input type="text" id="businessName" name="businessName" placeholder="Your business / shop name" required>
+                  <span class="form-error" id="err-businessName"></span>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="monthly">Monthly Requirement</label>
+                <div class="select-wrap">
+                  <select id="monthly" name="monthly" required>
+                    <option value="" disabled selected>Select expected monthly cases</option>
+                    <option value="50+ Cases">50+ Cases</option>
+                    <option value="100+ Cases">100+ Cases</option>
+                    <option value="250+ Cases">250+ Cases</option>
+                    <option value="500+ Cases">500+ Cases</option>
+                    <option value="1000+ Cases">1000+ Cases</option>
+                  </select>
+                  <div class="select-arrow">
+                    <svg viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                  </div>
+                </div>
+                <span class="form-error" id="err-monthly"></span>
+              </div>
+              <div class="form-group">
+                <label for="message">Message (Optional)</label>
+                <textarea id="message" name="message" placeholder="Tell us about your distribution area or any queries..." rows="3"></textarea>
+              </div>
+              <button type="submit" class="form-submit">
+                <span class="submit-text">Send via WhatsApp</span>
+                <span class="submit-icon">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                </span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-eyebrow centered">Got Questions?</div>
+      <h2 class="section-title centered">Frequently <em>Asked</em></h2>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            What certifications does Piezo water hold?
+            <span class="faq-arrow">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>PIEZO packaged drinking water is FSSAI approved. Our facility undergoes regular quality audits to ensure the highest standards of purity and safety.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Which areas does Piezo currently serve?
+            <span class="faq-arrow">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>We currently serve Sawai Madhopur, Jaipur, and Tonk across Rajasthan. We are actively expanding our network — if your city isn't listed, reach out and we'll let you know our timeline for your area.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            How do I become a Piezo distributor?
+            <span class="faq-arrow">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>Simply fill out the distributor application form above and send it via WhatsApp. Our team will review your application and reach out within 24-48 hours to discuss pricing, territory, and support details.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            Can I order customized bottles for an event?
+            <span class="faq-arrow">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>Absolutely! We offer fully customized branded water bottles for weddings, corporate events, conferences, and any special occasion. Minimum order quantities apply — contact us via WhatsApp to discuss your design and order.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            How is Piezo water purified?
+            <span class="faq-arrow">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+            </span>
+          </button>
+          <div class="faq-answer">
+            <p>PIEZO water undergoes a rigorous multi-stage purification process including pre-filtration, activated carbon filtration, reverse osmosis (RO), UV treatment, and ozonation — ensuring every drop is clean, safe, and perfectly balanced in minerals.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <div class="section-eyebrow centered">Get In Touch</div>
+      <h2 class="section-title centered">Contact <em>Piezo</em></h2>
+
+      <div class="contact-cards">
+        <a href="https://wa.me/918690319830" class="contact-card" target="_blank" rel="noopener">
+          <div class="contact-card-icon whatsapp-icon">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </div>
+          <div class="contact-card-info">
+            <span class="contact-card-label">WhatsApp / Call</span>
+            <strong class="contact-card-value">+91 86903 19830</strong>
+          </div>
+          <div class="contact-card-arrow">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </a>
+
+        <a href="mailto:piezofoodbeverages@gmail.com" class="contact-card" target="_blank" rel="noopener">
+          <div class="contact-card-icon email-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" stroke="currentColor" stroke-width="1.5"/><path d="M22 6l-10 7L2 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <div class="contact-card-info">
+            <span class="contact-card-label">Email</span>
+            <strong class="contact-card-value">piezofoodbeverages<br>@gmail.com</strong>
+          </div>
+          <div class="contact-card-arrow">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </a>
+
+        <a href="https://instagram.com/piezo_india" class="contact-card" target="_blank" rel="noopener">
+          <div class="contact-card-icon insta-icon">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="1.5"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.5"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg>
+          </div>
+          <div class="contact-card-info">
+            <span class="contact-card-label">Instagram</span>
+            <strong class="contact-card-value">@piezo_india</strong>
+          </div>
+          <div class="contact-card-arrow">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M7 17L17 7M17 7H7M17 7v10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+<section class="location-section">
+    <div class="container">
+
+        <div class="section-eyebrow centered">
+            VISIT OUR FACILITY
+        </div>
+
+        <h2 class="section-title centered">
+             <em>Visit us at :-</em>
+        </h2>
+
+        <div class="location-card">
+
+            <div class="location-info">
+                
+
+                <p>
+                    Piezo Food & Beverages<br>
+                    Near Dandveer Balaji,<br>
+                    Sorti Bazar Road, city,<br>
+                    Sawai Madhopur, Rajasthan - 322001
+                </p>
+<a href="https://www.google.com/maps/search/?api=1&query=Dandveer+Balaji+Sawai+Madhopur"
+   target="_blank"
+   class="map-btn">
+   View on Google Maps
+</a>
+            </div>
+
+            <div class="map-frame">
+               <iframe
+
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3586.2204170350087!2d76.38292367519121!3d25.993596077207034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396e26681346ae4b%3A0xd1c81e876f909ad1!2sdandveer%20balaji!5e0!3m2!1sen!2sin!4v1782293260476!5m2!1sen!2sin"
+    width="100%"
+    height="350"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+   </iframe>
+  </div>
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Founders Section -->
+<section class="founders-section">
+  <div class="container">
+    <div class="section-eyebrow centered">Meet The Team</div>
+    <h2 class="section-title centered">Founders of <em>Piezo</em></h2>
+
+    <div class="founders-grid">
+      <div class="founder-card">
+        <img src="founder1.jpeg" alt="Founder 1" class="founder-photo">
+        <h3>Dr.Rudraksh Singhal</h3>
+        <p>"At Piezo, our mission is to provide safe, pure, and refreshing drinking water that supports a healthy lifestyle. We believe that access to quality hydration is essential for wellness, productivity, and everyday life. Through premium quality standards and reliable service, Piezo is committed to becoming India's trusted hydration partner.".</p>
+      </div>
+
+      <div class="founder-card">
+        <img src="founder2.jpeg" alt="Founder 2" class="founder-photo">
+        <h3>Rachit Singhal</h3>
+        <p>"Focused on innovation, distribution excellence, and customer satisfaction, Rachit ensures that every Piezo bottle meets the highest standards of purity and safety. His vision is to make premium drinking water accessible across hotels, businesses, events, and communities while maintaining exceptional quality and service.".</p>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-wave">
+      <svg viewBox="0 0 1440 60" preserveAspectRatio="none">
+        <path d="M0,30 C240,60 480,0 720,30 C960,60 1200,0 1440,30 L1440,60 L0,60 Z" fill="rgba(11,22,40,1)"/>
+      </svg>
+    </div>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">Piezo</div>
+        <p class="footer-tagline">Pure Water. Pure Life.</p>
+        <p class="footer-brand-desc">Premium packaged drinking water, proudly serving Rajasthan.</p>
+        <a href="https://wa.me/918690319830" class="footer-wa-link" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Chat with us on WhatsApp
+        </a>
+      </div>
+
+      <div class="footer-links-group">
+        <h4 class="footer-group-title">Quick Links</h4>
+        <ul>
+          <li><a href="#about">About Piezo</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#why-us">Why Choose Us</a></li>
+          <li><a href="#distributor">Become Distributor</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-group">
+        <h4 class="footer-group-title">Products</h4>
+        <ul>
+          <li><a href="#products">1L Piezo Bottle</a></li>
+          <li><a href="#products">Premium Table Water</a></li>
+          <li><a href="#products">Event Bottles</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links-group">
+        <h4 class="footer-group-title">Service Areas</h4>
+        <ul>
+          <li><a href="#contact">Sawai Madhopur</a></li>
+          <li><a href="#contact">Jaipur</a></li>
+          <li><a href="#contact">Tonk</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Piezo Food &amp; Beverages. All rights reserved.</p>
+      <p>Pure Water · Pure Life · Rajasthan</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/918690319830?text=Hello%20PIEZO!%20I%20would%20like%20to%20know%20more%20about%20your%20products%20and%20services."
+     class="whatsapp-float"
+     target="_blank"
+     rel="noopener"
+     aria-label="Chat on WhatsApp">
+    <div class="wa-float-pulse"></div>
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="wa-float-label">Chat Now</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
