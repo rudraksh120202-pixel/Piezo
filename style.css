@@ -2175,3 +2175,23 @@ body {
         flex-direction:column;
     }
 }
+@media (max-width: 768px) {
+  .nav-links,
+  .navbar ul,
+  .nav-menu {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 18px !important;
+    height: auto !important;
+    line-height: 1.4 !important;
+  }
+
+  .nav-links a,
+  .navbar a,
+  .nav-menu a {
+    display: block !important;
+    padding: 10px 0 !important;
+    line-height: 1.4 !important;
+    position: relative !important;
+  }
+}
